@@ -16,15 +16,15 @@
                     $_SESSION['unique_id'] = $row['unique_id'];
                     echo "success";
                 }else{
-                    echo "Something went wrong. Please try again!";
+                    echo "Algo malo pasó. Vuelva a intentarlo!";
                 }
             }else{
-                echo "Email or Password is Incorrect!";
+                echo "Correo o contraseña incorrecto!";
             }
         }else{
-            echo "$email - This email not Exist!";
+            echo "$email - Este correo no exite!";
         }
     }else{
-        echo "All input fields are required!";
+        echo "Rellena todo los campos!";
     }
 ?>
